@@ -1,14 +1,5 @@
 # GarrysModHelper
 This repository serves as a guide for customizing your model in the game Garry's Mod. Here, you will find instructions, tips, and guides for various aspects of the game.
-
-<details>
-<summary>
-
-You can **click on the headings** to expand them. For example, you can click on this text.
-</summary>
-
-Yes, like this :thumbsup:.
-</details>
 <details>
 <summary>
 
