@@ -144,6 +144,114 @@ To get a link to a file from Discord, right-click and copy the link.
 </details>
 </details>
 </details>
+<details>
+<summary>
+
+# Downloading Addon with Model
+</summary>
+<details>
+<summary>
+
+## Downloading Addon from Steam Workshop
+</summary>
+
+You can download an addon with a model from external sources or from the Steam Workshop.
+
+There are two options to download the addon: the first one is simpler, and the second one is more reliable.
+### [SteamWorkshopDownloader.io](https://steamworkshopdownloader.io/)
+This is a website for downloading addons.
+1. Paste the addon link into the input field.
+2. If you see a download link for the addon, you can simply download it.
+![steamworkshopdownloader.io example url link](/images/websites/steamworkshopdownloaderio_example_url_link.png).
+3. If you don't see a download link but see the message `Question: do you know what SteamCMD is and are you logged into it?`, click on the `Yes` button and proceed to the [SteamCMD](#steamcmd) section.
+![steamworkshopdownloader.io example steamcmd link](/images/websites/steamworkshopdownloaderio_example_steamcmd_link.png)
+### [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD)
+This is the console version of Steam.
+1. Run `steamcmd.exe`.
+2. Type `login anonymous` to log in to SteamCMD, or you can use `login <username> [<password>] [<Steam guard code>]` to log in to your personal account.
+3. Copy the command using the `Click here to copy!` button and paste it into SteamCMD.
+![steamworkshopdownloader.io example steamcmd command](/images/websites/steamworkshopdownloaderio_example_steamcmd_command.png)
+4. The required addon is downloaded and located in the specified folder.
+</details>
+<details>
+<summary>
+
+## Extracting the Addon
+</summary>
+
+All the necessary programs can be found in the [Required Programs and Files](#required-programs-and-files) section.
+
+| File Type | Required Program |
+| --- | --- |
+| `*.vpk` | [GCFScape](#2-gcfscape) |
+| `*.gma` | [GWTool](#7-gwtool) |
+
+> [!WARNING]
+> GCFScape does not open files with hieroglyphs in the name.
+
+* To extract downloaded [`*.vpk`](https://developer.valvesoftware.com/wiki/VPK) files, you can use the GCFScape application.
+* To extract downloaded `*.gma` files, you can use the GWTool application. Simply run it and drag the file into the window that appears, and it will be unpacked in the same folder. (You may need the `7-Zip` archiver for additional extraction.)
+</details>
+</details>
+<details>
+<summary>
+
+# Required Programs and Files
+</summary>
+
+## 1. Crowbar
+Download link for the program [Releases · ZeqMacaw/Crowbar](https://github.com/ZeqMacaw/Crowbar/releases)<br>
+This program is used for decompiling, compiling, and viewing models on Source and GoldSource with a user-friendly interface and open-source code.<br>
+Valve page link: [Crowbar - Valve Developer Community](https://developer.valvesoftware.com/w/index.php?title=Crowbar)
+## 2. GCFScape
+Download link for the program [GCFScape](https://gamebanana.com/tools/26)<br>
+GCFScape is a tool for viewing and extracting files from resource archives of Quake, GoldSrc, and Source games.<br>
+Valve page link: [GCFScape - Valve Developer Community](https://developer.valvesoftware.com/wiki/GCFScape)
+## 3. VTFEdit
+Download link for the program [VTFLib/VTFEdit v1.3.3](https://gamebanana.com/tools/95)<br>
+VTFEdit is a tool for viewing, editing, and creating VTF and VMT files.<br>
+Valve page link: [VTFEdit - Valve Developer Community](https://developer.valvesoftware.com/wiki/VTFEdit)
+## 4. Blender
+Blender should be version `2.92` or higher. Whether it's the Steam version or from the [blender.org](https://www.blender.org/) website. Download links:
+* blender.org - [Download — blender.org](https://www.blender.org/download/);
+* blender.org - 2.92 - [Index of /release/Blender2.92/](https://download.blender.org/release/Blender2.92/);
+* Steam - [Blender on Steam](https://store.steampowered.com/app/365670/Blender/).
+## 5. default_physics.smd
+File for correct rigging of the model. You can download this file from my repository by simply clicking `<> Code` -> `Download ZIP` or through this link [default_physics.smd](/files/default_physics.smd).
+## 6. Blender Source Tools
+Download link for Blender add-on [Blender Source Tools](http://steamreview.org/BlenderSourceTools/download)  
+Blender Source Tools add support for the _Source Engine_ to _Blender_, a free 3D modeling package. Whether you're making a simple hat or a fully articulated character, Blender Source Tools make exporting easier.  
+Valve page link: [Blender Source Tools - Valve Developer Community](https://developer.valvesoftware.com/wiki/Blender_Source_Tools)
+## 7. GWTool
+Download link [GWTool](https://github.com/fgblomqvist/gwtool/releases).  
+This application is needed to unpack `*.gma` files.
+## 8. ProportionTrick Script
+Download link [ProportionTrick Script](https://github.com/sksh70/proportion_trick_script).<br>
+This is a special script for creating model proportions.
+## 9. 7-Zip
+Download link [7-Zip](https://www.7-zip.org/).<br>
+This application is needed for working with archives.
+</details>
+<details>
+<summary>
+
+# Setting Up Programs
+</summary>
+
+## 1. Crowbar
+You need to specify the path to `steam.exe`. To do this, open the `Set Up Games` tab and click the `Browse...` button next to the text `Steam executable (steam.exe) [Used for "Run Game" button]:`.  
+If you need to specify the path to the game, you can do it in the same tab by selecting the game in the upper ComboBox.
+
+## 2. Blender
+You need to add `Blender Source Tools` as an add-on in Blender. Step-by-step instructions:
+1. Click the `Edit` button (next to the application header).
+2. Click the `Preferences` button.
+3. Click the `Add-ons` button (left side in the opened window).
+4. Click the `Install` button.
+5. Choose the path to `blender_source_tools_3.2.5.zip`.
+6. Check the box for `Import-Export: Blender Source Tools`.
+Now you can import and export models in the `*.smd` and `*.dmx` formats.
+</details>
 
 <details>
 <summary>
