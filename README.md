@@ -58,16 +58,16 @@ If you decompile the model, it will appear as several files: `*.smd`, `*.vta`, a
 
 You can move all the necessary files into the `*.zip` archive. Here are some rules for creating a correct archive:
 
-> [!CAUTION]
+> [!CAUTION] Caution
 > The archive must be created without compression.
 
-> [!CAUTION]
+> [!CAUTION] Caution
 > You should include only one `*.mdl` file and all related files.
 
-> [!IMPORTANT]
+> [!IMPORTANT] Impotant
 > If the model has multiple `*.vmt` files with the same name, the model will not be displayed correctly.
 
-> [!TIP]
+> [!TIP] Tip
 > You can include all files in the archive without creating folders. This way, PAC3 will work more smoothly.
 </details>
 <details>
@@ -82,7 +82,7 @@ Most servers support [OneDrive](https://onedrive.live.com/), [Google Drive](http
 
 There are Garry's Mod servers where you can provide a link from any other service, such as [GitHub](https://github.com/), [Discord](https://discord.com/), and others...
 
-> [!TIP]
+> [!TIP] Tip
 > I recommend checking the [official documentation](https://wiki.pac3.info/tutorial/hosting/) for creating links.
 <details>
 <summary>
@@ -186,7 +186,7 @@ All the necessary programs can be found in the [Required Programs and Files](#re
 | `*.vpk` | [GCFScape](#2-gcfscape) |
 | `*.gma` | [GWTool](#7-gwtool) |
 
-> [!WARNING]
+> [!WARNING] Warning
 > GCFScape does not open files with hieroglyphs in the name.
 
 * To extract downloaded [`*.vpk`](https://developer.valvesoftware.com/wiki/VPK) files, you can use the GCFScape application.
@@ -252,7 +252,6 @@ You need to add `Blender Source Tools` as an add-on in Blender. Step-by-step ins
 6. Check the box for `Import-Export: Blender Source Tools`.
 Now you can import and export models in the `*.smd` and `*.dmx` formats.
 </details>
-
 <details>
 <summary>
 
@@ -261,7 +260,6 @@ Now you can import and export models in the `*.smd` and `*.dmx` formats.
 
 GarrysModHelper © 2024 is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 </details>
-
 <details>
 <summary>
 
