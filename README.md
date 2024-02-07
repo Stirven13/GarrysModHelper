@@ -58,16 +58,20 @@ If you decompile the model, it will appear as several files: `*.smd`, `*.vta`, a
 
 You can move all the necessary files into the `*.zip` archive. Here are some rules for creating a correct archive:
 
-> [!CAUTION] Caution
+> [!CAUTION]
+> 
 > The archive must be created without compression.
 
-> [!CAUTION] Caution
+> [!CAUTION]
+> 
 > You should include only one `*.mdl` file and all related files.
 
-> [!IMPORTANT] Impotant
+> [!IMPORTANT]
+> 
 > If the model has multiple `*.vmt` files with the same name, the model will not be displayed correctly.
 
-> [!TIP] Tip
+> [!TIP]
+> 
 > You can include all files in the archive without creating folders. This way, PAC3 will work more smoothly.
 </details>
 <details>
@@ -82,7 +86,8 @@ Most servers support [OneDrive](https://onedrive.live.com/), [Google Drive](http
 
 There are Garry's Mod servers where you can provide a link from any other service, such as [GitHub](https://github.com/), [Discord](https://discord.com/), and others...
 
-> [!TIP] Tip
+> [!TIP]
+> 
 > I recommend checking the [official documentation](https://wiki.pac3.info/tutorial/hosting/) for creating links.
 <details>
 <summary>
@@ -186,7 +191,8 @@ All the necessary programs can be found in the [Required Programs and Files](#re
 | `*.vpk` | [GCFScape](#2-gcfscape) |
 | `*.gma` | [GWTool](#7-gwtool) |
 
-> [!WARNING] Warning
+> [!WARNING]
+> 
 > GCFScape does not open files with hieroglyphs in the name.
 
 * To extract downloaded [`*.vpk`](https://developer.valvesoftware.com/wiki/VPK) files, you can use the GCFScape application.
