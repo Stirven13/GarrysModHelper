@@ -66,6 +66,10 @@ You can move all the necessary files into the `*.zip` archive. Here are some rul
 > 
 > You should include only one `*.mdl` file and all related files.
 
+> [!CAUTION]
+> 
+> If you don't have all 6 model files, you may need to recompile the model. You can do this in the [compilation of `*.mdl` and its features](#compiling-mdl-and-its-features) section.
+
 > [!IMPORTANT]
 > 
 > If the model has multiple `*.vmt` files with the same name, the model will not be displayed correctly.
